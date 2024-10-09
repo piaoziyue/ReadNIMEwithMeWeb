@@ -17,3 +17,11 @@
 
   </div>
 </a>
+
+<div class="post-tags {% if post.categories contains 'foundation' %}foundation-category{% else %}post-category{% endif %}">
+  {% for tag in post.tags %}
+    <span class="tag">{{ tag }}</span>
+  {% endfor %}
+</div>
+
+

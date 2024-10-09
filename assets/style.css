@@ -1,0 +1,137 @@
+/* Default tag styling */
+.tag {
+    padding: 5px;
+    border-radius: 1px;
+    margin-right: 5px;
+    font-size: 12px;
+  }
+  
+  /* Tag color for posts under the 'post' category */
+  .post-category .tag {
+    background-color: hsl(272, 77%, 75%); /* Blue for post category */
+    color: white;
+  }
+  
+  /* Tag color for posts under the 'foundation' category */
+  .foundation-category .tag {
+    background-color: #8aadff; /* Red for foundation category */
+    color: white;
+  }
+  
+  /* Tags Page Styles */
+.tags {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.tags-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tags-header-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.tags-header-line {
+  width: 50px;
+  height: 4px;
+  background-color: hsl(272, 77%, 75%); /* Blue line for header */
+  margin: 10px auto;
+}
+
+/* General styling for the tag cloud */
+.tags-clouds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Post tag color */
+.post-tag {
+  display: inline-block;
+  font-size: 1em;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 2px solid #8aadff; /* Border color for post tags */
+  border-radius: 5px;
+  color: #8aadff; /* Text color for post tags */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.post-tag:hover {
+  background-color: #8aadff;
+  color: #fff;
+}
+
+/* Foundation tag color */
+.foundation-tag {
+  display: inline-block;
+  font-size: 1em;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 2px solid hsl(272, 77%, 75%); /* Border color for foundation tags */
+  border-radius: 5px;
+  color: hsl(272, 77%, 75%); /* Text color for foundation tags */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.foundation-tag:hover {
+  background-color: hsl(272, 77%, 75%);
+  color: #fff;
+}
+
+
+.tags-item {
+  margin-bottom: 30px;
+}
+
+.tags-item-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  fill: none;
+  stroke: #2c3e50; /* Icon color */
+}
+
+.tags-item-label {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tags-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.tags-post:hover {
+  background-color: #ffffff;
+}
+
+.tags-post-title {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.tags-post-meta {
+  color: #999;
+  font-size: 0.9em;
+}
+
+.tags-post-line {
+  width: 50px;
+  height: 2px;
+  background-color:  #8aadff; /* Red line for post separation */
+  margin: 5px 0;
+}

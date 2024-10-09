@@ -1,22 +1,25 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Read NIME With Me
+description:    "Ziyue Piao's Paper Reading Blogs"
+url:            "https://piaoziyue.github.io/blog"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Ziyue Piao
+  url:          https://piaoziyue.github.io
+  email:        piaoziyue@gmail.com
 
 # Build settings
 markdown:       kramdown
 include:
   - _pages
+
+baseurl: "" # or "/your-repo-name" if you're hosting on GitHub Pages
+paginate: 5
+
 
 # Assets
 sass:

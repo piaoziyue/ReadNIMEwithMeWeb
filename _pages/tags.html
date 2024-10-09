@@ -9,11 +9,28 @@ permalink: /tags/
     <h2 class="tags-header-title">{{ page.title }}</h2>
     <div class="tags-header-line"></div>
   </div>
+
   <div class="tags-clouds">
-    {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
-    {% endfor %}
-  </div>
+  {% for tag in site.tags %}
+    {%- assign post_category = false -%}
+    {%- assign foundation_category = false -%}
+
+    {%- for post in tag[1] -%}
+      {%- if post.categories contains "reading" -%}
+        {%- assign post_category = true -%}
+      {%- endif -%}
+      {%- if post.categories contains "foundation" -%}
+        {%- assign foundation_category = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    <a href="#{{ tag[0] }}" 
+       class="{% if foundation_category %} foundation-tag {% elsif post_category %} post-tag {% endif %}">
+       {{ tag[0] }}
+    </a>
+  {% endfor %}
+</div>
+
   {% for tag in site.tags %}
   <div class="tags-item" id="{{ tag[0] }}">
     <svg
