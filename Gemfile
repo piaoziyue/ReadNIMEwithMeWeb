@@ -19,3 +19,11 @@ end
 
 gem 'webrick'
 
+# 2025-01-14 updatesbundle install
+
+gem 'logger'
+gem 'csv'
+gem 'ostruct'
+gem 'base64'
+gem 'bigdecimal'
+
