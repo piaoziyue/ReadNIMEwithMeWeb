@@ -39,6 +39,17 @@ Compare to helicopter: The helicopter designer must enable the pilot to control 
 # Embodied Learning [1]
 Embodied learning occurs when the meaning of what is learned is grounded in body movement and perception.
 
+# interoception and body related [3]
+
+* **internal sensations**
+  * **interoception**: visceral or internal bodily sensation. meant to describe various kinds of sensory signals that originate from biological bodies, including visceral signals such as heart rate and body temperature (Craig, 2009; Tsakiris, 2017)
+  * musculo-skeletal or physical sensation (proprioception and kinesthesis). 
+    * **proprioception**: sense of position and orientation; Proprioception refers to our sensation and perception of limb, trunk, and head position and movement. It's always overlooked as one of our basic senses, proprioception is sensory information transmitted to the central nervous system about such movement characteristics as direction, location in space, velocity, and muscle activation
+    * sensations of movement (kinesthesis)
+
+  * interoception to refer to body-related signals that originate from moving the body, such as **proprioception** and **tactile perception**.
+  
+  * physical sensation (proprioception and kinesthesis) (Mishkin et al., 1984)
 
 # Motor skills 
 
@@ -56,7 +67,7 @@ Embodied learning occurs when the meaning of what is learned is grounded in body
 
 
 ## motor control [2]
-how our neuromuscular system functions to activate and coordinate the muscles and limbs involved in the performance of a motor skill. Researchers may investigate this question while a person is learning a new skill or performing a welllearned or highly experienced skill.
+how our neuromuscular system functions to activate and coordinate the muscles and limbs involved in the performance of a motor skill. Researchers may investigate this question while a person is learning a new skill or performing a well learned or highly experienced skill.
 
 ## motor development
 both motor learning and control, primarily interested in the relationship between these issues and human development from infancy to old age
@@ -252,16 +263,12 @@ Error measures not only provide indicators of performance accuracy but certain t
 ### from motor learning to music motor learning
 * Motor learning in sports and other gross motor learning, which will include easier access measurement, e.g. how fast a person ran a certain distance, and a baseball player’s batting average all are based on the outcome of the person’s performance. How to set measurement for music could varies based on the goal
 
-# Kinesthetic Learning
-
-## kinesthetic
-
-
-
-## what kind of kinesthetic learning has learning barrier?
+* consider both human 
 
 
 ## References
 
 1. Nathan, M. J. (2021). Foundations of embodied learning: A paradigm for education. Routledge.
 2. Magill, R., & Anderson, D. I. (2010). Motor learning and control. New York: McGraw-Hill Publishing.
+3. Liesner, M. and Kunde, W., 2021. Environment-related and body-related components of the minimal self. Frontiers in Psychology, 12, p.712559.
+4. Payne, P., Levine, P.A. and Crane-Godreau, M.A., 2015. Somatic experiencing: using interoception and proprioception as core elements of trauma therapy. Frontiers in psychology, 6, p.93.
