@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ML related papers related to sensing"
-tags: scapulearn
+tags: piano
 categories: reading
 ---
 

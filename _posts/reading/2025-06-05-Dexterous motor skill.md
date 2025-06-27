@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dexterous motor skill"
-tags: scapulearn
+tags: piano
 categories: reading
 ---
 
