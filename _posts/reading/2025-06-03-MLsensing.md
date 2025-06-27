@@ -193,3 +193,21 @@ the source and target feature spaces differ, i.e., χs χt . Heterogeneity in fe
 *(3)* d-heterogeneity (default case: change in device aspects).
 
 ## All things related to IMU
+
+
+# Deep Inertial Poser: Learning to Reconstruct Human Pose from Sparse Inertial Measurements in Real Time
+
+## Methodology
+* Stage 1: Train on purely synthetic IMU–pose pairs (from AMASS).
+
+* Stage 2 (Fine-tuning): Use the DIP-IMU real dataset (with 17-sensor-based reference poses) to adapt the network to real-world noise and motion patterns.
+
+### Model and Synthetic Data Generation
+* They adopt the SMPL body model (72 pose parameters + 10 shape parameters) as a “ground-truth” pose space.
+
+* By taking large existing MoCap datasets (AMASS, which itself unifies CMU, H3.6M, etc.), they place virtual IMUs on the SMPL mesh and “play back” each MoCap sequence.
+
+* For every frame, they extract a synthetic IMU reading:
+  * Orientation from forward kinematics (virtual sensor rotation).
+  * Acceleration via finite differences of the sensor’s 3D position.
+
