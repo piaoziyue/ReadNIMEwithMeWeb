@@ -9,6 +9,10 @@ categories: reading
 
 > Sakaguchi, Yutaka, and Eriko Aiba. "Relationship between musical characteristics and temporal breathing pattern in piano performance." Frontiers in human neuroscience 10 (2016): 381
 
+> To use this system, however, participants have to hold a tube in their mouth or to wear a gas mask, which causes considerable stress on them.
+
+> capnography is the best available method for this purpose. The nasal adaptor of the PCO2 sensor is small and lightweight, and is almost unnoticeable to the pianists once they start the performance.
+
 ## Main breathing related sfindings of the paper
 
 * (1) Mean breath interval was shortened for excerpts in faster tempi. 
